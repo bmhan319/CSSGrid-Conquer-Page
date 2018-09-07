@@ -1,0 +1,213 @@
+/*----- Content & Services Container Layout-----*/
+
+.content, .services {
+  padding: 70px 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1140px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-auto-rows: auto;
+  grid-column-gap:30px;
+  grid-row-gap:60px;
+}
+
+.content-3col1 {
+  grid-column: 1/5;
+  grid-row:1/2;
+}
+
+.content-3col2 {
+  grid-column: 5/9;
+  grid-row:1/2;
+}
+
+.content-3col3 {
+  grid-column: 9/13;
+  grid-row:1/2;
+}
+
+.content-2col1 {
+  grid-column: 1/7;
+  grid-row:2/3;
+}
+
+.content-2col2 {
+  grid-column: 7/13;
+  grid-row:2/3;
+}
+
+.content-4col1 {
+  grid-column: 1/4;
+  grid-row:1/2;
+}
+
+.content-4col2 {
+  grid-column: 4/7;
+  grid-row:1/2;
+}
+
+.content-4col3 {
+  grid-column: 7/10;
+  grid-row:1/2;
+}
+
+.content-4col4 {
+  grid-column: 10/13;
+  grid-row:1/2;
+}
+
+.content-1col1 {
+  grid-column: 1/13;
+  grid-row:2/3;
+}
+
+/*----- Content & Services Inner-Container Layout -----*/
+.container > div {
+  background-color: #f2f2f2;
+}
+
+.container .content-3col {
+  width: 360px;
+}
+
+.container .content-2col {
+  width: 555px;
+}
+
+.container .content-4col {
+  width: 260px;
+}
+
+.container .content-1col {
+  width: 1140px;
+}
+
+.container .content-3col h3,
+.container .content-1col h3,
+.container .content-3col p,
+.container .content-2col p,
+.container .content-4col p,
+.container .content-1col p {
+  padding: 0 25px
+}
+
+.container .content-2col h3,
+.container .content-4col h3 {
+  text-align: center;
+}
+/*----- 3-Column Content Container Styling -----*/
+.text-green {
+  color: #188928;
+}
+
+.text-blue {
+  color:#1786c1;
+}
+
+.text-red {
+  color: #842506;
+}
+
+.container-text {
+  font-size: .85rem;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.content-3col button {
+  width: 146px;
+  height: 46px;
+  border-radius: 5px;
+  margin: 15px 107px 30px;
+  font-size: 1.1rem;
+  color: #fff;
+  transition: all 0.3s ease 0s;
+  outline: none;
+} 
+
+.button-green {
+  background-color: #188928;
+  
+}
+
+.button-blue {
+  background-color: #1786c1;
+}
+
+.button-red {
+  background-color: #842506;
+}
+
+.button-green:hover {
+  background-color: #439d43;
+}
+
+.button-blue:hover {
+  background-color: #32b0d5;
+}
+
+.button-red:hover {
+  background-color: #c9302d;
+}
+
+/*----- 2-Column & 4-Column Content Container Styling -----*/
+
+.text-grey {
+  color: #666;
+}
+
+.button-white {
+  width: 153px;
+  height: 46px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  color: #666;
+  margin: 10px 0 30px 310px;
+  outline: none;
+}
+
+.button-white:hover {
+  background-color: #e6e6e6;
+  color: #24527b;
+}
+
+/*----- 4-Column Content Container Styling -----*/
+
+.button-white2 {
+  width: 130px;
+  height: 46px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  color: #666;
+  margin: 10px 65px 30px;
+  transition: all .3s ease 0s;
+  outline: none;
+}
+
+.button-white2:hover {
+  background-color: #e6e6e6;
+  color: #24527b;
+}
+
+/*----- 1-Column Content Container Styling -----*/
+
+.button-white3 {
+  width: 150px;
+  height: 46px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  color: #666;
+  margin: 10px 25px 30px;
+  transition: all .3s ease 0s;
+  outline: none;
+}
+
+.button-white3:hover {
+  background-color: #e6e6e6;
+  color: #24527b;
+}
+
+/*----- Tail Container Styling -----*/

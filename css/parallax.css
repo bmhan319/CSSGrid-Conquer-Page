@@ -1,0 +1,36 @@
+/*----- First Parallax Section -----*/
+.parallax1 {
+  position:relative;
+  z-index:-100;
+}
+
+.bg1 {
+  width: 100%;
+  height: 614px;
+  background-image: url(../img/bg-1.jpg);
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*----- Second Parallax Section -----*/
+.bg2 {
+  background-image: url('../img/bg-2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width:100%;
+  height:314px;
+  background-position: -40px 20px;
+  background-size:cover;
+}
+
+/*----- Second Parallax Section -----*/
+.bg3 {
+  background-image: url('../img/bg-3.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width:100%;
+  height:578px;
+  background-position: -40px 20px;
+  background-size:cover;
