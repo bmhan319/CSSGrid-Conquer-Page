@@ -17,22 +17,22 @@
   </head>
 
   <body id="top">
-    <nav class="nav-wrapper">
-      <div>
-        <button>Homepage</button>
-        <button>About Us</button>
-        <button>Services</button>
-        <button>Contact</button>
-        <button>External</button>
-      </div>
+    <nav id="navbar" class="nav-wrapper topnav">
+        <a href=#top class="btn active">Homepage</a>
+        <a href=#about class="btn">About Us</a>
+        <a href=#services class="btn">Services</a>
+        <a href=#contact class="btn">Contact</a>
+        <a href=# class="btn">External</a>
     </nav>
     
     <section class="parallax1">
-      <div>
-        <div class="bg1"></div>
+      <div class="container1">
+        <h1 class="title-text1">CONQUER</h1>
+        <h4 class="sub-text1">Simple Bootstrap Template</h4>
       </div>
     </section>
     
+    <span class="anchor" id="about"></span>
     <section class="content">
       <div class="container">
         <div class="content-3col content-3col1">
@@ -68,10 +68,12 @@
         </div>
       </div>
     </section>
-    
-    <section class="parallax1">
-      <div>
-        <div class="bg2"></div>
+  
+    <span class="anchor" id="services"></span>
+    <section class="parallax2">
+      <div class="container2">
+        <h2 class="title-text2">Our Services</h2>
+        <p class="sub-text2">Nunc diam leo, fringilla vulputate elit lobortis, consectetur vestibulum quam. Sed id felis ligula. In euismod libero at magna dapibus, in rutrum velit lacinia. <br> Etiam a mi quis arcu varius condimentum.</p>
       </div>
     </section>
     
@@ -109,9 +111,18 @@
       </div>
     </section>
     
-    <section class="parallax1">
-      <div>
-        <div class="bg3"></div>
+    <span class="anchor" id="contact"></span>
+    <section class="parallax3">
+      <div class="container3">
+        <h2 class="title-text3">Contact Form</h2>
+        <form class="contact-form">
+          <p class="form-input form-text">Nunc diam leo, fringilla vulputate elit lobortis, consectetur vestibulum quam. Sed id felis ligula. In euismod libero at magna dapibus, in rutrum velit lacinia. <br> Etiam a mi quis arcu varius condimentum.</p>
+          <input class="form-input form-input-name" type="text" name="full-name" placeholder="Name">
+          <input class="form-input form-input-email" type="email" name="email" placeholder="Email">
+          <input class="form-input form-input-subject" type="text" name="subject" placeholder="Subject">
+          <textarea class="form-input text-area" rows="6" cols="30" name="comment" placeholder="Your message here..."></textarea>
+          <button class="form-button">Send</button>
+        </form>
       </div>
     </section>
     
@@ -132,6 +143,10 @@
         </div>
       </div>
     </footer>
+    
+    <div id="top-button" class="top-button">
+      <a href=#top><img src="img/top.png"></a>
+    </div>
     
     <script src="js/scroll.js"></script>
   </body>

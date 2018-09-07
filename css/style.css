@@ -7,12 +7,15 @@ src:
   url("css/fonts/glyphicons-halflings-regular.svg#filename") format("svg");
 }
 
+* {
+  box-sizing: border-box;
+}
+
 html, body{
   width: 100%;
   margin:0;
   padding:0;
   font-family: "Open Sans", Helvetica, Arial, sans-serif!important;
-  box-sizing: border-box;
 }
 
 .anchor {
