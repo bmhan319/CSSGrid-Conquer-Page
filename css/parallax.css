@@ -48,7 +48,7 @@
 .container2 {
   color:#fff;
   margin: 0 auto;
-  width: 56%;
+  width: 100%;
   padding: 70px 0 0 0;
   text-align:center;
 }
@@ -97,7 +97,7 @@
 }
 
 .contact-form {
-  margin: 20px 0 0 0;
+  margin: 20px 10px 0 10px;
   display: grid;
   grid-template-columns: repeat(21, 1fr);
 }
@@ -112,7 +112,7 @@
 .contact-form p {
   margin: 10px 0;
   grid-column: 1/22;
-  padding: 20px 50px ;
+  padding: 20px 10px ;
   text-align: center;
   line-height: 1.6;
 }

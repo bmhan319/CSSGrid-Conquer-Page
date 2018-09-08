@@ -42,3 +42,9 @@ active, .nav-wrapper > a:hover {
   right: 20px;
   bottom: 78px;  
 }
+
+/* -------Hamburger Menu------- */
+.header {
+  display: none;
+}
+

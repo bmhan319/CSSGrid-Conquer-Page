@@ -1,0 +1,861 @@
+/*----- Start 1200px Media Query Section -----*/
+@media screen and (max-width: 1200px) {
+  
+/*----- Content & Services Container Layout-----*/
+
+.container {
+  max-width: 940px;
+}
+
+/*----- Content & Services Inner-Container Layout -----*/  
+  
+.container .content-3col {
+  max-width: 293px;
+}
+  
+.container .content-2col {
+  max-width: 455px;
+}
+  
+.container .content-4col {
+  max-width: 212px;
+}
+
+.container .content-1col {
+  max-width: 940px;
+}
+
+/*----- 3-Column Content Container Styling -----*/  
+
+.content-3col img {
+  max-width: 293px;
+}  
+  
+.content-3col button {
+  margin: 15px 73px 30px;
+} 
+   
+/*----- End 3-Column Sub-Section -----*/
+/*----- 2-Column Sub-Section -----*/
+  
+.content-2col img {
+  max-width: 455px;
+}
+  
+.button-white {
+  margin: 10px 0 30px 250px;
+}
+  
+/*----- End 2-Column Sub-Section -----*/
+/*----- 4-Column Sub-Section -----*/
+
+.content-4col img {
+  max-width: 212px;
+}
+  
+.button-white2 {
+  margin: 10px 0 30px 41px;
+}
+
+/*----- End 4-Column Sub-Section -----*/
+/*----- 1-Column Sub-Section -----*/
+
+.content-1col img {
+  max-width: 940px;
+}
+  
+/*----- End 1-Column Sub-Section -----*/  
+/*----- Third Parallax Section -----*/
+.parallax3 {
+  height:575px;
+}
+/*----- End Third Parallax Section -----*/
+}
+/*----- End 1200px Media Query Section -----*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----- Start 991px Media Query Section -----*/
+@media screen and (max-width: 991px) {
+
+/* -------Nav Bar------- */
+.nav-wrapper {
+    height: 70px;
+    padding: 23px 0 0px 0;
+  }
+  
+.nav-wrapper > a {
+    padding: 13px 24px;
+    margin: 0px 4px;
+    font-size: 1.04rem;
+  }
+  
+/*----- End Nav Section -----*/  
+/*----- Content & Services Container Layout-----*/
+
+.containerA {
+  max-width: 720px;
+}  
+
+.containerB {
+  max-width: 720px;
+  grid-template-columns: auto 1fr auto 1fr auto;
+  grid-auto-rows: auto;
+  grid-column-gap: 50px;
+  grid-row-gap:60px;
+  grid-template-areas: 
+    ". a . b ."
+    ". c . d ."
+    "e e e e e";
+}
+
+.content-4col1 {
+  grid-area: a;
+}
+
+.content-4col2 {
+  grid-area: b;
+}
+
+.content-4col3 {
+  grid-area: c;
+}
+
+.content-4col4 {
+  grid-area: d;
+}  
+  
+.content-1col1 {
+  grid-area: e;
+}
+  
+/*----- Content & Services Inner-Container Layout -----*/  
+  
+.container .content-3col {
+  max-width: 220px;
+}
+  
+.container .content-2col {
+  max-width: 345px;
+}
+  
+.container .content-4col {
+  width: 260px;
+}
+
+.container .content-1col {
+  max-width: 720px;
+}  
+  
+/*----- 3-Column Content Container Styling -----*/  
+
+.content-3col img {
+  max-width: 220px;
+}  
+  
+.content-3col button {
+  margin: 15px 37px 30px;
+} 
+   
+/*----- End 3-Column Sub-Section -----*/
+/*----- 2-Column Sub-Section -----*/
+  
+.content-2col img {
+  max-width: 345px;
+}
+  
+.button-white {
+  margin: 10px 96px 30px 96px;
+}
+  
+/*----- End 2-Column Sub-Section -----*/
+/*----- 4-Column Sub-Section -----*/
+
+.content-4col img {
+  max-width: 260px;
+}
+
+.container .content-4col {
+  max-width: 260px;
+  width:100%;
+}
+  
+.button-white2 {
+  margin: 10px 65px 30px 65px;
+}
+
+/*----- End 4-Column Sub-Section -----*/
+/*----- 1-Column Sub-Section -----*/
+
+.content-1col img {
+  max-width: 720px;
+  width:100%;
+}
+  
+/*----- End 1-Column Sub-Section -----*/  
+/*----- Second Parallax Section -----*/ 
+
+  
+/*----- End Second Parallax Section -----*/ 
+  /*----- Third Parallax Section -----*/
+  
+  .bg3 {
+    background-position: -115px 15px;
+    background-size:cover;
+  }
+  
+  .form-row1 {
+    padding: 3px 12px;
+  }
+  
+  .form-text {
+    font-size: 1.08rem;
+    line-height: 26px;
+    letter-spacing: .3px;
+  }
+/*----- End Third Parallax Section -----*/ 
+}
+/*----- End 991px Media Query Section -----*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----- Start 767px Media Query Section -----*/
+@media screen and (max-width: 767px) {
+  
+/*----- Nav Section -----*/
+.topnav {
+  background-color: transparent;
+}
+  
+.topnav a {
+  display:none;
+}
+
+/*----- End Nav Section -----*/
+  
+/* -------Hamburger Menu------- */
+
+/* menu */
+  
+.header {
+  display:block;
+}
+  
+.header ul {
+  margin: 0 14px;
+  padding: 0 0 0 0;
+  list-style: none;
+  overflow: hidden;
+  background-color: #39404B;
+}
+
+.header li a {
+  display: block;
+  padding: 10px 10px;
+  border-bottom: 1px solid #636c7b;
+  text-decoration: none;
+  color: #fff;
+}
+
+.header li a:hover,
+.header .menu-btn:hover {
+  background-color: #494f5e;
+}
+
+.header .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height 1.0s ease-out;
+}
+
+/* hamburger menu icon */
+
+.header .menu-icon {
+  display: inline-block;
+  float: right;
+  padding: 16px 12px;
+  position: relative;
+  user-select: none;
+  background-color: #39404B;
+  border-radius: 4px;
+  margin: -15px 14px 10px 0;
+}
+
+.header .menu-icon .navicon {
+  background: #fff;
+  display: block;
+  height: 2px;
+  position: relative;
+  width: 20px;
+}
+
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+  background: #fff;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.header .menu-icon .navicon:before {
+  top: 6px;
+}
+
+.header .menu-icon .navicon:after {
+  top: -6px;
+}
+
+/* menu btn */
+
+.header .menu-btn {
+  display: none;
+}
+
+.header .menu-btn:checked ~ .menu {
+  max-height: 340px;
+}  
+  
+/* -------End Hamburger Menu------- */
+/*----- Start First Parallax Section -----*/ 
+  
+  .parallax1 {
+    height:780px;
+  }
+  
+  .title-text1 {
+    padding: 80px 0 0 0;
+  }
+
+/*----- End First Parallax Section -----*/ 
+/*----- Content & Services Container Layout-----*/
+
+.containerA {
+  max-width: 100%;
+  padding: 0 15px;
+  grid-template-columns: 1fr ;
+  grid-auto-rows: auto;
+  grid-column-gap:0px;
+  grid-row-gap:30px;
+  grid-template-areas: 
+    " a "
+    " b "
+    " c "
+    " d "
+    " e ";
+}
+  
+.containerB {
+  max-width: 640px;
+  width:100%;
+  padding: 0 15px;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: auto;
+  grid-row-gap:30px;
+  grid-template-areas: 
+    "a b"
+    "c d"
+    "e e";
+}
+
+.content-3col1 {
+  grid-area: a;
+  align-self: center;
+  justify-self: center;
+}
+
+.content-3col2 {
+  grid-area: b;
+  align-self: center;
+  justify-self: center;
+}
+
+.content-3col3 {
+  grid-area: c;
+  align-self: center;
+  justify-self: center;
+  margin: 0 0 60px 0;
+}
+
+.content-2col1 {
+  grid-area: d;
+  align-self: center;
+  justify-self: center;
+}
+
+.content-2col2 {
+  grid-area: e;
+  align-self: center;
+  justify-self: center;
+}
+  
+.content-4col1 {
+  grid-area: a;
+  justify-self: center;
+}
+  
+.content-4col2 {
+  grid-area: b;
+  justify-self: center;
+}
+  
+.content-4col3 {
+  grid-area: c;
+  justify-self: center;
+}
+  
+.content-4col4 {
+  grid-area: d;
+  justify-self: center;
+}
+  
+/*----- Content & Services Inner-Container Layout -----*/  
+/*----- 3-Column Content Container Styling -----*/  
+
+.content-3col img {
+  max-width: 362px;
+  width:100%;
+}
+  
+.container .content-3col {
+  max-width: 362px;
+  width:100%;
+  text-align: center;
+}
+  
+.content-3col button {
+  margin: 15px 0px 30px;
+} 
+   
+/*----- End 3-Column Sub-Section -----*/
+/*----- 2-Column Sub-Section -----*/
+  
+.content-2col img {
+  max-width: 554px;
+  width:100%;
+}
+  
+.container .content-2col {
+  max-width: 554px;
+  width:100%;
+  text-align: center;
+}
+
+.content-2col1 {
+  padding: 0 0 86px;
+}
+  
+.button-white {
+  margin: 10px 0 30px 0;
+}
+  
+/*----- End 2-Column Sub-Section -----*/
+/*----- Second Parallax Section -----*/
+.parallax2 {
+  height:293px;
+  background-position: -930px 0px;
+}
+
+.container2 {
+  padding: 40px 0 0 0;
+}
+
+/*----- End Second Parallax Section -----*/
+/*----- 4-Column Sub-Section -----*/
+
+.content-4col img {
+  max-width: 260px;
+  width:100%;
+} 
+
+.container .content-4col {
+  max-width: 260px;
+  min-width: 190px;
+  width:100%;
+  text-align: center;
+}
+  
+.button-white2 {
+  margin: 10px auto 30px auto;
+}
+
+/*----- End 4-Column Sub-Section -----*/
+/*----- 1-Column Sub-Section -----*/
+
+.content-1col img {
+  max-width: 720px;
+  width:100%;
+}
+  
+.container .content-1col {
+  max-width: 720px;
+  width:100%;
+}
+  
+/*----- End 1-Column Sub-Section -----*/ 
+/*----- Third Parallax Section -----*/  
+  
+  
+  .bg3 {
+    height: 726px;
+    background-position: -115px 0px;
+  }
+  
+  .contact-form {
+    width:94%;  
+    height: 100%;
+    padding: 0px 0 0px 0;
+  }
+  
+  .form-row1 {
+    padding: 5px 20px;
+  }
+  
+  .form-text {
+    text-align: center;
+    line-height: 25px;
+    font-size: 1rem;
+  }
+  
+  .form-row2 {
+    margin: 12px 0 0 0 ;
+    display: block;
+  }
+
+  .form-row2-col1 {
+    width: 100%;
+  }
+  
+  .form-input {
+    width: 97%;
+  }
+  
+  .form-row2-col2 {
+    width: 100%;
+  }
+  
+  .text-area {
+  float:left;
+  width: 97%;
+  }
+  
+  .form-row3-col1 {
+    float: left;
+    padding: 13px 0px 0 0px;
+  }
+
+/*----- End Third Parallax Section -----*/ 
+/*----- Tail Section -----*/ 
+
+  .tail-row1 {
+    margin: 38px auto 48px auto;
+    width: 70%;
+    text-align: center;
+  }
+  
+  .tail-p {
+    font-style: italic;
+    font-weight: 400;
+    font-size: .85rem;
+    color: #a0a0a0;
+    line-height: 22px;
+  }
+
+/*----- End Tail Section -----*/ 
+/*----- Footer Section -----*/ 
+  .footer-row1 {
+    margin: 33px auto;
+    width: 100%;
+  }
+/*----- End Footer Section -----*/ 
+}
+/*----- End 767px Media Query Section -----*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----- Start 520px Media Query Section -----*/
+@media screen and (max-width: 520px) {
+/*----- 4-Column Sub-Section -----*/  
+.services-container {
+    max-width: 718px;
+  }
+  
+  .services-row1 {
+    display: inline-flex;
+    justify-content:space-around;
+    padding: 0 0 30px 0;
+    width: 96%;
+    margin: 0 2%;
+  }
+  
+  .services-row1 > div {
+    flex-basis: calc(100% - 70px);  
+  }
+  
+  .services-row1-col { 
+    width: 100%;
+  }
+  
+  .services-row1-col1, .services-row1-col2, .services-row1-col3, .services-row1-col4 {
+    margin: 0 20px;
+  }
+  
+  .services-row1-col1, .services-row1-col2, .services-row1-col3 {
+    margin-bottom: 30px;
+  }
+/*----- End 4-Column Sub-Section -----*/  
+}
+/*----- End 520px Media Query Section -----*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----- Start 480px Media Query Section -----*/
+@media screen and (max-width: 480px) {
+
+/*----- Start First Parallax Section -----*/ 
+  
+  .parallax1 {
+    height:520px;
+  }
+  
+  .container1 {
+    padding: 190px 0 0 0;
+  }
+  
+  .title-text1 {
+    padding: 0px 0 0 0;
+  }
+
+/*----- End First Parallax Section -----*/ 
+/*----- Content & Services Container Layout-----*/
+
+.containerA {
+  max-width: 480px;
+  grid-template-columns: 1fr;
+  grid-auto-rows: auto;
+  grid-row-gap:30px;
+  grid-template-areas: 
+    " a "
+    " b "
+    " c "
+    " d "
+    " e ";
+}
+  
+.containerB {
+  max-width: 480px;
+  grid-template-columns: 1fr;
+  grid-auto-rows: auto;
+  grid-row-gap:30px;
+  padding: 0 15px;
+  grid-template-areas: 
+    " a "
+    " b "
+    " c "
+    " d "
+    " e ";
+}
+
+.content-3col1 {
+  grid-area: a;
+  align-self: center;
+  justify-self: center;
+}
+
+.content-3col2 {
+  grid-area: b;
+  align-self: center;
+  justify-self: center;
+}
+
+.content-3col3 {
+  grid-area: c;
+  align-self: center;
+  justify-self: center;
+}
+
+.content-2col1 {
+  grid-area: d;
+  align-self: center;
+  justify-self: center;
+}
+
+.content-2col2 {
+  grid-area: e;
+  align-self: center;
+  justify-self: center;
+}
+  
+.content-4col1 {
+  grid-area: a;
+  align-self: center;
+  justify-self: center;
+}
+  
+.content-4col2 {
+  grid-area: b;
+  align-self: center;
+  justify-self: center;
+}
+  
+.content-4col3 {
+  grid-area: c;
+  align-self: center;
+  justify-self: center;
+}
+  
+.content-4col4 {
+  grid-area: d;
+  align-self: center;
+  justify-self: center;
+}
+  
+/*----- Content & Services Inner-Container Layout -----*/ 
+/*----- Start Second Parallax Section -----*/
+
+  .parallax2 {
+    height:378px;
+  }
+  
+  .parallax-txt2 {
+    width: 94%;
+    padding: 40px 0 0 0;
+  }
+  
+  .sub-text2 {
+    padding: 10px 10px 0;
+    font-size: 1.12rem;
+    line-height: 28px;
+    word-spacing: 2px;
+  }
+
+/*----- End Second Parallax Section -----*/ 
+/*----- Start Third Parallax Section -----*/
+  .bg3 {
+    height: 800px;
+    background-position: -115px 0px;
+  }
+  
+  .title-text3 {
+    width: 58%;
+    }
+  
+  .contact-form {
+    width:94%;  
+    padding: 0px 0 0px 0;
+  }
+  
+  .form-row1 {
+    margin: 0 auto;
+    padding: 5px 20px;
+  }
+  
+  .form-text {
+    text-align: center;
+    line-height: 25px;
+    font-size: 1rem;
+  }
+  
+  .form-row2 {
+    width: 100%;
+    margin: 12px 0 0 0 ;
+    display: block;
+  }
+
+  .form-row2-col1 {
+    width: 100%;
+  }
+  
+  .form-input {
+    width: 94%;
+  }
+  
+  .form-row2-col2 {
+    width: 100%;
+  }
+  
+  .text-area {
+  float:left;
+  width: 94%;
+  }
+  
+  .form-row3-col1 {
+    float: left;
+    padding: 13px 0px 0 0px;
+  }
+/*----- End Third Parallax Section -----*/
+/*----- Tail Section -----*/ 
+
+  .tail-row1 {
+    margin: 38px auto 48px auto;
+    width: 90%;
+    text-align: center;
+  }
+
+/*----- End Tail Section -----*/ 
+}
+/*----- End 480px Media Query Section -----*/
+  
