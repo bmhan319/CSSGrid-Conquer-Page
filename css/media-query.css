@@ -504,12 +504,8 @@
   max-width: 260px;
   min-width: 190px;
   width:100%;
-  text-align: center;
 }
   
-.button-white2 {
-  margin: 10px auto 30px auto;
-}
 
 /*----- End 4-Column Sub-Section -----*/
 /*----- 1-Column Sub-Section -----*/
@@ -720,6 +716,7 @@
   grid-area: a;
   align-self: center;
   justify-self: center;
+  height: 500px;
 }
   
 .content-4col2 {
@@ -732,6 +729,7 @@
   grid-area: c;
   align-self: center;
   justify-self: center;
+  height: 500px;
 }
   
 .content-4col4 {
